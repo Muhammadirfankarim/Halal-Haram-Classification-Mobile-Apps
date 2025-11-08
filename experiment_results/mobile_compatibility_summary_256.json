@@ -1,0 +1,31 @@
+{
+  "padding_size": 256,
+  "models": {
+    "hybrid_cnn_gru": {
+      "status": "error",
+      "out_path": null,
+      "error": "Unrecognized keyword arguments passed to GRU: {'time_major': False}"
+    },
+    "cnn1d": {
+      "status": "success",
+      "out_path": "models\\mobile_builtins\\cnn1d_builtin.tflite",
+      "error": null
+    },
+    "fasttext": {
+      "status": "success",
+      "out_path": "models\\mobile_builtins\\fasttext_builtin.tflite",
+      "error": null
+    },
+    "gru": {
+      "status": "error",
+      "out_path": null,
+      "error": "Unrecognized keyword arguments passed to GRU: {'time_major': False}"
+    },
+    "lstm": {
+      "status": "error",
+      "out_path": null,
+      "error": "Unrecognized keyword arguments passed to LSTM: {'time_major': False}"
+    }
+  },
+  "best_mobile": "cnn1d"
+}

@@ -1,0 +1,70 @@
+{
+  "timestamp": "2025-10-28T16:32:03.080647",
+  "rankings": {
+    "General Purpose": "FastText",
+    "Mobile Deployment": "FastText",
+    "Performance Focus": "FastText",
+    "Production Ready": "FastText",
+    "Best F1/MB Ratio": "FastText",
+    "Best F1/Param Ratio": "FastText",
+    "Fastest Training": "FastText"
+  },
+  "top_3_models": {
+    "rank_1": {
+      "model": "FastText",
+      "general_efficiency": 0.6091011778749089,
+      "mobile_efficiency": 0.5196450884623723,
+      "performance_efficiency": 0.7472546287060108,
+      "production_efficiency": 0.6052071925929515,
+      "f1_per_mb": 0.07529615687068535,
+      "test_f1": 0.9465691788526435,
+      "size_mb": 12.571281433105469
+    },
+    "rank_2": {
+      "model": "Hybrid_CNN_GRU",
+      "general_efficiency": 0.577669894260148,
+      "mobile_efficiency": 0.48399579972459217,
+      "performance_efficiency": 0.7300705615707903,
+      "production_efficiency": 0.565717347445844,
+      "f1_per_mb": 0.0746293967287768,
+      "test_f1": 0.9632209529116745,
+      "size_mb": 12.906723022460938
+    },
+    "rank_3": {
+      "model": "CNN1D",
+      "general_efficiency": 0.5752740492233044,
+      "mobile_efficiency": 0.4753810068662282,
+      "performance_efficiency": 0.7311346639887071,
+      "production_efficiency": 0.5692529979935161,
+      "f1_per_mb": 0.06981484640714974,
+      "test_f1": 0.9621907144842925,
+      "size_mb": 13.782035827636719
+    }
+  },
+  "efficiency_weights": {
+    "general": {
+      "f1": 0.4,
+      "size": 0.25,
+      "speed": 0.2,
+      "params": 0.15
+    },
+    "mobile": {
+      "f1": 0.3,
+      "size": 0.4,
+      "speed": 0.2,
+      "params": 0.1
+    },
+    "performance": {
+      "f1": 0.6,
+      "size": 0.15,
+      "speed": 0.15,
+      "params": 0.1
+    },
+    "production": {
+      "f1": 0.35,
+      "size": 0.25,
+      "speed": 0.25,
+      "params": 0.15
+    }
+  }
+}

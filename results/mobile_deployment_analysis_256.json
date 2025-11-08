@@ -1,0 +1,11 @@
+{
+  "mobile_threshold_mb": 10,
+  "total_models": 5,
+  "mobile_ready_count": 0,
+  "mobile_ready_models": [],
+  "best_mobile_model": {
+    "name": null,
+    "f1_score": null,
+    "size_mb": null
+  }
+}

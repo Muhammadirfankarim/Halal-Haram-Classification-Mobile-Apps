@@ -1,0 +1,68 @@
+{
+  "mobile_deployment_criteria": {
+    "max_size_mb": 10,
+    "min_f1_score": 0.85,
+    "evaluation_timestamp": "2025-10-29T10:29:58.060630"
+  },
+  "mobile_ready_models": [
+    {
+      "model_name": "FastText",
+      "size_mb": 12.571281433105469,
+      "f1_score": 0.0,
+      "accuracy": 0.9579039959788892,
+      "parameters": 1095041,
+      "meets_size_criteria": false,
+      "meets_performance_criteria": false,
+      "mobile_ready": false,
+      "mobile_score": -2.514256286621094
+    },
+    {
+      "model_name": "Hybrid_CNN_GRU",
+      "size_mb": 12.906723022460938,
+      "f1_score": 0.0,
+      "accuracy": 0.9692133701935159,
+      "parameters": 1122913,
+      "meets_size_criteria": false,
+      "meets_performance_criteria": false,
+      "mobile_ready": false,
+      "mobile_score": -2.5813446044921875
+    },
+    {
+      "model_name": "GRU",
+      "size_mb": 13.011741638183594,
+      "f1_score": 0.0,
+      "accuracy": 0.9680824327720533,
+      "parameters": 1132417,
+      "meets_size_criteria": false,
+      "meets_performance_criteria": false,
+      "mobile_ready": false,
+      "mobile_score": -2.6023483276367188
+    },
+    {
+      "model_name": "LSTM",
+      "size_mb": 13.184593200683594,
+      "f1_score": 0.0,
+      "accuracy": 0.9685850716260367,
+      "parameters": 1147585,
+      "meets_size_criteria": false,
+      "meets_performance_criteria": false,
+      "mobile_ready": false,
+      "mobile_score": -2.636918640136719
+    },
+    {
+      "model_name": "CNN1D",
+      "size_mb": 13.782035827636719,
+      "f1_score": 0.0,
+      "accuracy": 0.9670771550640864,
+      "parameters": 1199713,
+      "meets_size_criteria": false,
+      "meets_performance_criteria": false,
+      "mobile_ready": false,
+      "mobile_score": -2.756407165527344
+    }
+  ],
+  "recommendations": {
+    "champion_model": "N/A",
+    "mobile_suitable": false
+  }
+}

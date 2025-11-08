@@ -1,0 +1,16 @@
+{
+  "label_encoder_classes": [
+    "halal",
+    "haram"
+  ],
+  "label_mapping": {
+    "halal": 0,
+    "haram": 1
+  },
+  "train_size": 27850,
+  "val_size": 3979,
+  "test_size": 7958,
+  "random_state": 42,
+  "text_column": "text",
+  "label_column": "label"
+}

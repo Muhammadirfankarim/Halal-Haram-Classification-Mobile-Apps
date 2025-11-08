@@ -1,0 +1,25 @@
+{
+  "model_name": "Hybrid_CNN_GRU",
+  "model_file": "models/hybrid_cnn_gru_best.h5",
+  "test_accuracy": 0.9668258356370948,
+  "test_precision": 0.964026770775237,
+  "test_recall": 0.9624164810690423,
+  "test_f1": 0.9632209529116745,
+  "test_auc": 0.9920646175600688,
+  "confusion_matrix": [
+    [
+      4237,
+      129
+    ],
+    [
+      135,
+      3457
+    ]
+  ],
+  "classification_report": "              precision    recall  f1-score   support\n\n       halal     0.9691    0.9705    0.9698      4366\n       haram     0.9640    0.9624    0.9632      3592\n\n    accuracy                         0.9668      7958\n   macro avg     0.9666    0.9664    0.9665      7958\nweighted avg     0.9668    0.9668    0.9668      7958\n",
+  "total_params": 1122913,
+  "model_size_mb": 12.907707214355469,
+  "inference_time_ms": 0.16545994732960528,
+  "throughput_samples_per_sec": 6043.758723118321,
+  "evaluation_date": "2025-10-28T16:52:55.992870"
+}

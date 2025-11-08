@@ -1,0 +1,10 @@
+{
+  "model_name": "Hybrid_CNN_GRU",
+  "model_file": "models/hybrid_cnn_gru_best_256.h5",
+  "test_f1": 0.9655172413793104,
+  "test_accuracy": 0.9692133701935159,
+  "total_params": 1122913,
+  "model_size_mb": 12.906723022460938,
+  "training_time_seconds": 236.97235941886902,
+  "timestamp": "2025-10-29T10:13:28.752918"
+}

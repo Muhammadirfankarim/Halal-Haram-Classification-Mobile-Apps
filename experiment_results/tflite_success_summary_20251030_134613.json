@@ -1,0 +1,25 @@
+{
+  "model_name": "hybrid_cnn_gru_best_256",
+  "original_path": "models/hybrid_cnn_gru_best_256.h5",
+  "conversion_timestamp": "2025-10-30T13:46:13.466013",
+  "successful_conversions": {
+    "DYNAMIC": {
+      "file_path": "models/tflite/hybrid_cnn_gru_best_256_dynamic_fixed.tflite",
+      "size_mb": 1.09,
+      "inference_time_ms": 3.67,
+      "description": "Ukuran terkecil, optimal untuk mobile"
+    },
+    "FLOAT16": {
+      "file_path": "models/tflite/hybrid_cnn_gru_best_256_float16_fixed.tflite",
+      "size_mb": 2.16,
+      "inference_time_ms": 2.16,
+      "description": "Keseimbangan ukuran dan performa"
+    },
+    "FLOAT32": {
+      "file_path": "models/tflite/hybrid_cnn_gru_best_256_float32_fixed.tflite",
+      "size_mb": 4.3,
+      "inference_time_ms": 1.92,
+      "description": "Performa tercepat, akurasi maksimal"
+    }
+  }
+}
