@@ -1,0 +1,14 @@
+================================================================================
+BILINGUAL DATASET PREPROCESSING STATISTICS
+================================================================================
+
+total_samples: 123,449
+halal_samples: 67,706
+haram_samples: 55,743
+original_mean_words: 43.18
+cleaned_mean_words: 37.06
+word_reduction_percent: 14.19
+char_reduction_percent: 12.74
+empty_after_cleaning: 9
+min_words_after_cleaning: 0
+max_words_after_cleaning: 359

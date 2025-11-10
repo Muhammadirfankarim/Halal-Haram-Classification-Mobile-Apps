@@ -1,0 +1,37 @@
+{
+  "best_overall": {
+    "model": "GRU",
+    "f1_score": 0.9929650042568446,
+    "accuracy": 0.9936406351263772,
+    "size_mb": 1.2739486694335938,
+    "fnr": 0.006010585807840674
+  },
+  "most_efficient": {
+    "model": "FastText",
+    "efficiency_score": 0.6896816011023101,
+    "f1_score": 0.9770227983907018,
+    "size_mb": 1.2316131591796875
+  },
+  "mobile_optimized": {
+    "model": "FastText",
+    "mobile_efficiency": 0.6153565094179505,
+    "f1_score": 0.9770227983907018,
+    "size_mb": 1.2316131591796875
+  },
+  "smallest": {
+    "model": "FastText",
+    "size_mb": 1.2316131591796875,
+    "f1_score": 0.9770227983907018
+  },
+  "fastest_training": {
+    "model": "FastText",
+    "training_time_sec": 207.82466197013855,
+    "f1_score": 0.9770227983907018
+  },
+  "safest": {
+    "model": "GRU",
+    "fnr": 0.006010585807840674,
+    "recall": 0.9939894141921594,
+    "f1_score": 0.9929650042568446
+  }
+}

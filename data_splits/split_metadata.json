@@ -1,0 +1,43 @@
+{
+  "dataset_info": {
+    "source_file": "dataset/bilingual_dataset_cleaned.csv",
+    "total_samples": 123440,
+    "text_column": "cleaned_text",
+    "label_column": "label"
+  },
+  "split_info": {
+    "train_size": 86408,
+    "val_size": 12344,
+    "test_size": 24688,
+    "train_percentage": 70.0,
+    "val_percentage": 10.0,
+    "test_percentage": 20.0,
+    "random_state": 42,
+    "stratified": true
+  },
+  "label_info": {
+    "classes": [
+      "halal",
+      "haram"
+    ],
+    "label_mapping": {
+      "halal": 0,
+      "haram": 1
+    },
+    "num_classes": 2
+  },
+  "distribution": {
+    "train": {
+      "halal": 47393,
+      "haram": 39015
+    },
+    "val": {
+      "halal": 6770,
+      "haram": 5574
+    },
+    "test": {
+      "halal": 13541,
+      "haram": 11147
+    }
+  }
+}

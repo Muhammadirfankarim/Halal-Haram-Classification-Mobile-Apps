@@ -1,7 +1,0 @@
-Metric,Model,Value
-Best F1-Score,Hybrid_CNN_GRU,0.9632
-Best Accuracy,Hybrid_CNN_GRU,0.9668
-Smallest Model,FastText,12.57 MB
-Fastest Training,FastText,41.9s
-Most Efficient,FastText,0.6091
-Best Mobile Model,None,N/A

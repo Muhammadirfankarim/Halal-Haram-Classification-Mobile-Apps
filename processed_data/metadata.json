@@ -1,0 +1,14 @@
+{
+  "dataset_info": {
+    "total_samples": 123440,
+    "num_classes": 2,
+    "label_classes": [
+      "halal",
+      "haram"
+    ],
+    "label_mapping": {
+      "halal": 0,
+      "haram": 1
+    }
+  }
+}

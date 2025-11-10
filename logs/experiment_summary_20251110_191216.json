@@ -1,0 +1,211 @@
+{
+  "experiment_info": {
+    "experiment_id": "halal_haram_dl_exp_20251110_191216",
+    "timestamp": "2025-11-10T19:12:16.301564",
+    "date": "2025-11-10 19:12:16",
+    "total_models_trained": 5,
+    "config": {
+      "max_sequence_length": 256,
+      "embedding_dim": 128,
+      "batch_size": 32,
+      "max_epochs": 10,
+      "early_stopping_patience": 3,
+      "vocab_size": 5,
+      "dataset": {
+        "name": "Bilingual Halal/Haram Food Classification",
+        "languages": [
+          "English",
+          "Indonesian"
+        ],
+        "total_samples": "86,411 training samples"
+      }
+    }
+  },
+  "champion_models": {
+    "best_overall": {
+      "model": "GRU",
+      "f1_score": 0.9929650042568446,
+      "accuracy": 0.9936406351263772,
+      "size_mb": 1.2739486694335938,
+      "fnr": 0.006010585807840674
+    },
+    "most_efficient": {
+      "model": "FastText",
+      "efficiency_score": 0.6896816011023101,
+      "f1_score": 0.9770227983907018,
+      "size_mb": 1.2316131591796875
+    },
+    "mobile_optimized": {
+      "model": "FastText",
+      "mobile_efficiency": 0.6153565094179505,
+      "f1_score": 0.9770227983907018,
+      "size_mb": 1.2316131591796875
+    },
+    "smallest": {
+      "model": "FastText",
+      "size_mb": 1.2316131591796875,
+      "f1_score": 0.9770227983907018
+    },
+    "fastest_training": {
+      "model": "FastText",
+      "training_time_sec": 207.82466197013855,
+      "f1_score": 0.9770227983907018
+    },
+    "safest": {
+      "model": "GRU",
+      "fnr": 0.006010585807840674,
+      "recall": 0.9939894141921594,
+      "f1_score": 0.9929650042568446
+    }
+  },
+  "mobile_deployment": {
+    "strict": {
+      "criteria": {
+        "max_size_mb": 5,
+        "min_f1": 0.9
+      },
+      "suitable_models_count": 5,
+      "models": [
+        {
+          "Model": "GRU",
+          "Test_F1_Score": 0.9929650042568446,
+          "Model_Size_MB": 1.2739486694335938,
+          "Mobile_Efficiency": 0.6118572756857276
+        },
+        {
+          "Model": "Hybrid CNN-GRU",
+          "Test_F1_Score": 0.9913549832026876,
+          "Model_Size_MB": 1.27593994140625,
+          "Mobile_Efficiency": 0.6103135134385594
+        },
+        {
+          "Model": "LSTM",
+          "Test_F1_Score": 0.9885160999774827,
+          "Model_Size_MB": 1.2845382690429688,
+          "Mobile_Efficiency": 0.6054430039117665
+        },
+        {
+          "Model": "CNN-1D",
+          "Test_F1_Score": 0.9866785873938311,
+          "Model_Size_MB": 1.3128662109375,
+          "Mobile_Efficiency": 0.5964374105340281
+        },
+        {
+          "Model": "FastText",
+          "Test_F1_Score": 0.9770227983907018,
+          "Model_Size_MB": 1.2316131591796875,
+          "Mobile_Efficiency": 0.6153565094179505
+        }
+      ]
+    },
+    "moderate": {
+      "criteria": {
+        "max_size_mb": 10,
+        "min_f1": 0.85
+      },
+      "suitable_models_count": 5,
+      "models": [
+        {
+          "Model": "GRU",
+          "Test_F1_Score": 0.9929650042568446,
+          "Model_Size_MB": 1.2739486694335938,
+          "Mobile_Efficiency": 0.6118572756857276
+        },
+        {
+          "Model": "Hybrid CNN-GRU",
+          "Test_F1_Score": 0.9913549832026876,
+          "Model_Size_MB": 1.27593994140625,
+          "Mobile_Efficiency": 0.6103135134385594
+        },
+        {
+          "Model": "LSTM",
+          "Test_F1_Score": 0.9885160999774827,
+          "Model_Size_MB": 1.2845382690429688,
+          "Mobile_Efficiency": 0.6054430039117665
+        },
+        {
+          "Model": "CNN-1D",
+          "Test_F1_Score": 0.9866785873938311,
+          "Model_Size_MB": 1.3128662109375,
+          "Mobile_Efficiency": 0.5964374105340281
+        },
+        {
+          "Model": "FastText",
+          "Test_F1_Score": 0.9770227983907018,
+          "Model_Size_MB": 1.2316131591796875,
+          "Mobile_Efficiency": 0.6153565094179505
+        }
+      ]
+    },
+    "relaxed": {
+      "criteria": {
+        "max_size_mb": 15,
+        "min_f1": 0.8
+      },
+      "suitable_models_count": 5,
+      "models": [
+        {
+          "Model": "GRU",
+          "Test_F1_Score": 0.9929650042568446,
+          "Model_Size_MB": 1.2739486694335938,
+          "Mobile_Efficiency": 0.6118572756857276
+        },
+        {
+          "Model": "Hybrid CNN-GRU",
+          "Test_F1_Score": 0.9913549832026876,
+          "Model_Size_MB": 1.27593994140625,
+          "Mobile_Efficiency": 0.6103135134385594
+        },
+        {
+          "Model": "LSTM",
+          "Test_F1_Score": 0.9885160999774827,
+          "Model_Size_MB": 1.2845382690429688,
+          "Mobile_Efficiency": 0.6054430039117665
+        },
+        {
+          "Model": "CNN-1D",
+          "Test_F1_Score": 0.9866785873938311,
+          "Model_Size_MB": 1.3128662109375,
+          "Mobile_Efficiency": 0.5964374105340281
+        },
+        {
+          "Model": "FastText",
+          "Test_F1_Score": 0.9770227983907018,
+          "Model_Size_MB": 1.2316131591796875,
+          "Mobile_Efficiency": 0.6153565094179505
+        }
+      ]
+    }
+  },
+  "performance_statistics": {
+    "f1_score": {
+      "mean": 0.9873074946443096,
+      "std": 0.006245414454945713,
+      "min": 0.9770227983907018,
+      "max": 0.9929650042568446
+    },
+    "accuracy": {
+      "mean": 0.9885207388204797,
+      "std": 0.005668789001764567,
+      "min": 0.9791801685029164,
+      "max": 0.9936406351263772
+    },
+    "model_size_mb": {
+      "mean": 1.27578125,
+      "min": 1.2316131591796875,
+      "max": 1.3128662109375
+    },
+    "training_time_sec": {
+      "total": 6184.469969987869,
+      "mean": 1236.893993997574,
+      "min": 207.82466197013855,
+      "max": 1970.7013268470764
+    },
+    "false_negative_rate": {
+      "mean": 0.011662330671929667,
+      "min": 0.006010585807840674,
+      "max": 0.019646541670404593,
+      "models_below_5_percent": 5
+    }
+  }
+}

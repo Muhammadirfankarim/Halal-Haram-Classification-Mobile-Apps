@@ -1,0 +1,119 @@
+{
+  "strict": {
+    "criteria": {
+      "max_size_mb": 5,
+      "min_f1": 0.9
+    },
+    "suitable_models_count": 5,
+    "models": [
+      {
+        "Model": "GRU",
+        "Test_F1_Score": 0.9929650042568446,
+        "Model_Size_MB": 1.2739486694335938,
+        "Mobile_Efficiency": 0.6118572756857276
+      },
+      {
+        "Model": "Hybrid CNN-GRU",
+        "Test_F1_Score": 0.9913549832026876,
+        "Model_Size_MB": 1.27593994140625,
+        "Mobile_Efficiency": 0.6103135134385594
+      },
+      {
+        "Model": "LSTM",
+        "Test_F1_Score": 0.9885160999774827,
+        "Model_Size_MB": 1.2845382690429688,
+        "Mobile_Efficiency": 0.6054430039117665
+      },
+      {
+        "Model": "CNN-1D",
+        "Test_F1_Score": 0.9866785873938311,
+        "Model_Size_MB": 1.3128662109375,
+        "Mobile_Efficiency": 0.5964374105340281
+      },
+      {
+        "Model": "FastText",
+        "Test_F1_Score": 0.9770227983907018,
+        "Model_Size_MB": 1.2316131591796875,
+        "Mobile_Efficiency": 0.6153565094179505
+      }
+    ]
+  },
+  "moderate": {
+    "criteria": {
+      "max_size_mb": 10,
+      "min_f1": 0.85
+    },
+    "suitable_models_count": 5,
+    "models": [
+      {
+        "Model": "GRU",
+        "Test_F1_Score": 0.9929650042568446,
+        "Model_Size_MB": 1.2739486694335938,
+        "Mobile_Efficiency": 0.6118572756857276
+      },
+      {
+        "Model": "Hybrid CNN-GRU",
+        "Test_F1_Score": 0.9913549832026876,
+        "Model_Size_MB": 1.27593994140625,
+        "Mobile_Efficiency": 0.6103135134385594
+      },
+      {
+        "Model": "LSTM",
+        "Test_F1_Score": 0.9885160999774827,
+        "Model_Size_MB": 1.2845382690429688,
+        "Mobile_Efficiency": 0.6054430039117665
+      },
+      {
+        "Model": "CNN-1D",
+        "Test_F1_Score": 0.9866785873938311,
+        "Model_Size_MB": 1.3128662109375,
+        "Mobile_Efficiency": 0.5964374105340281
+      },
+      {
+        "Model": "FastText",
+        "Test_F1_Score": 0.9770227983907018,
+        "Model_Size_MB": 1.2316131591796875,
+        "Mobile_Efficiency": 0.6153565094179505
+      }
+    ]
+  },
+  "relaxed": {
+    "criteria": {
+      "max_size_mb": 15,
+      "min_f1": 0.8
+    },
+    "suitable_models_count": 5,
+    "models": [
+      {
+        "Model": "GRU",
+        "Test_F1_Score": 0.9929650042568446,
+        "Model_Size_MB": 1.2739486694335938,
+        "Mobile_Efficiency": 0.6118572756857276
+      },
+      {
+        "Model": "Hybrid CNN-GRU",
+        "Test_F1_Score": 0.9913549832026876,
+        "Model_Size_MB": 1.27593994140625,
+        "Mobile_Efficiency": 0.6103135134385594
+      },
+      {
+        "Model": "LSTM",
+        "Test_F1_Score": 0.9885160999774827,
+        "Model_Size_MB": 1.2845382690429688,
+        "Mobile_Efficiency": 0.6054430039117665
+      },
+      {
+        "Model": "CNN-1D",
+        "Test_F1_Score": 0.9866785873938311,
+        "Model_Size_MB": 1.3128662109375,
+        "Mobile_Efficiency": 0.5964374105340281
+      },
+      {
+        "Model": "FastText",
+        "Test_F1_Score": 0.9770227983907018,
+        "Model_Size_MB": 1.2316131591796875,
+        "Mobile_Efficiency": 0.6153565094179505
+      }
+    ]
+  }
+}

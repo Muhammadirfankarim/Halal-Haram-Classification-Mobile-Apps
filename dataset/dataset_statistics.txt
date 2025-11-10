@@ -1,0 +1,24 @@
+======================================================================
+BILINGUAL DATASET STATISTICS
+======================================================================
+
+ORIGINAL DATASET:
+  Total samples: 39,787
+  - Halal: 21,826
+  - Haram: 17,961
+
+BILINGUAL DATASET:
+  Total samples: 123,449
+  - Halal: 67,706
+  - Haram: 55,743
+
+IMPROVEMENT:
+  +83,662 samples
+  +210.3% increase
+
+SOURCE DISTRIBUTION:
+  id_translation: 39,787 (32.2%)
+  id_augmented: 19,907 (16.1%)
+  en_original: 39,787 (32.2%)
+  hybrid: 15,974 (12.9%)
+  id_reordered: 7,994 (6.5%)
